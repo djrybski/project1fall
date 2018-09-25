@@ -291,9 +291,7 @@ body {
 }
 .avatar{
 	display: block;
-  	margin-left: auto;
-    	margin-right: auto }
-	width: 15px;
+  	width: 15px;
 	height: 15px;
 	border-radius: 0%;
 }

@@ -17,5 +17,8 @@ body {
     	position: absolute;
 	transform: translate(-50%,-50%);
 	box-sizing: border-box;
-   	}
-
+}
+ .avatar{
+	 width: 15px;
+	 heightL 15px;
+}

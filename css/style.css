@@ -19,8 +19,8 @@ body {
 	box-sizing: border-box;
 }
 .avatar{
-	width: 100px;
-	height: 100px;
+	width: 10px;
+	height: 10px;
 	border-radius: 50%;
 	position: absolute;
 }

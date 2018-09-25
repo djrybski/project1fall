@@ -21,6 +21,7 @@ body {
  .avatar{
 	 width: 90px;
 	 height: 80px;
+	 position: absolute;
 	 top: -50px;
 	 
 }

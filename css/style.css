@@ -17,6 +17,7 @@ body {
     	position: absolute;
 	transform: translate(-50%,-50%);
 	box-sizing: border-box;
+	padding: 70px 30px;
 }
  .avatar{
 	 width: 100px;
@@ -26,3 +27,5 @@ body {
 	 top: -50px;
 	 left: calc(50% - 50px);
 }
+
+   

@@ -1,5 +1,5 @@
-<script>
 function myFunction() {
-    alert("Hello! I am an alert box!");
+	alert("Thank You For Submitting!");
+	window.location.replace("https://thewitcher.com/en/witcher3");
+		return false;
 }
-</script>

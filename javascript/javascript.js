@@ -1,6 +1,6 @@
-myFunction(){
-  alert(“Your copy of my book has been sent to your email”);
-}
-
-
-
+button.onclick = function() 
+  {
+    modal.style.display = "block";
+  }
+  }
+  alert("Your book has been emailed to you")

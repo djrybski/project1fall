@@ -302,3 +302,4 @@ h1{
 	margin-bottom: 20px;
 }
 
+@media-query only screen and (min-device-width: 375px) and (max-device-width: 667px) {

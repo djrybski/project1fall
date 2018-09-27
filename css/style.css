@@ -252,13 +252,13 @@ textarea {
 }
 
 body {
+	overflow-y: hidden;
 	margin: 0;
 	padding: 0;
-	background: url("../css/123.jpg");
-   	background-repeat: no-repeat;
+	background-image: url("../media/123.jpg");
+  background-repeat: no-repeat;
 	background-size: cover;
-	font-family: sans-sefif;
-	
+	height: 1080px;	
 }
 
 .loginbox {
@@ -269,11 +269,12 @@ body {
 	opacity: 0.9;
 	top: 50%;
 	left: 50%;
-    	position: absolute;
+  position: relative;
 	transform: translate(-50%,-50%);
 	box-sizing: border-box;
 	padding: 30px 30px;
-	 border: 1px solid #00CED1;
+	border: 1px solid #00CED1;
+	margin-top: 20px;
 }
  .avatar{
 	 width: 100px;
@@ -302,4 +303,17 @@ h1{
 	margin-bottom: 20px;
 }
 
-@media-query only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+	body, html {
+		overflow: auto;
+	}
+	.loginbox {
+		margin-top: 400px;
+		position: relative;
+	}
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) {
+	body, html {
+		overflow: auto;
+	}
+}

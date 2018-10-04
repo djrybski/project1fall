@@ -252,13 +252,13 @@ textarea {
 }
 
 body {
-	overflow-y: hidden;
 	margin: 0;
 	padding: 0;
-	background-image: url("../media/123.jpg");
-  background-repeat: no-repeat;
+	background: url("../css/123.jpg");
+   	background-repeat: no-repeat;
 	background-size: cover;
-	height: 1080px;	
+	font-family: sans-sefif;
+	
 }
 
 .loginbox {
@@ -269,12 +269,11 @@ body {
 	opacity: 0.9;
 	top: 50%;
 	left: 50%;
-  position: relative;
+    	position: absolute;
 	transform: translate(-50%,-50%);
 	box-sizing: border-box;
 	padding: 30px 30px;
-	border: 1px solid #00CED1;
-	margin-top: 20px;
+	 border: 1px solid #00CED1;
 }
  .avatar{
 	 width: 100px;
@@ -301,19 +300,4 @@ h1{
 	width: 100%;
 	padding: 5px 5px;
 	margin-bottom: 20px;
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
-	body, html {
-		overflow: auto;
-	}
-	.loginbox {
-		margin-top: 100px;
-		position: relative;
-	}
-}
-@media only screen and (min-device-width: 360px) and (max-device-width: 740px) {
-	body, html {
-		overflow: auto;
-	}
 }

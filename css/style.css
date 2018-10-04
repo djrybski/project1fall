@@ -266,8 +266,8 @@ body {
 	height: 420px;
 	background: #303030;
 	color: #fff;
+	position: relative;
 	opacity: 0.9;
-	left: 50%;
 	transform: translate(-50%,-50%);
 	box-sizing: border-box;
 	border: 1px solid #00CED1;
@@ -294,22 +294,8 @@ h1{
 	font-weight: bold;
 }
 .loginbox input{
-	width: 100%;
+	width: auto;
 	padding: 5px 5px;
 	margin-bottom: 20px;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
-	body, html {
-		overflow: auto;
-	}
-	.loginbox {
-		margin-top: 100px;
-		position: relative;
-	}
-}
-@media only screen and (min-device-width: 360px) and (max-device-width: 740px) {
-	body, html {
-		overflow: auto;
-	}
-}

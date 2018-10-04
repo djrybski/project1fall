@@ -217,14 +217,19 @@ textarea {
 }
 /* Mobile first css */
 @media screen and (max-width: 480px) {
-  form {
+  background {
+   color: white;
+  }
+  
+    form {
     margin: 0 0 5px 0;
     width: 100%;
   }
+  
   form > label,
   legend {
-	  width: 100%;
-    float: none;
+   width: 100%;
+   float: none;
   }
   
   label {
@@ -248,6 +253,13 @@ textarea {
 	legend {
   	text-align: center;
     width: 100%;
+  }
+	
+body {
+	margin: 0;
+	padding: 0;
+	background: white;
+   
   }
 }
 
@@ -285,6 +297,7 @@ body {
 	 left: calc(50% - 50px);
 }
 h1{
+	color: white;
 	margin: 0;
 	padding: 20px 10px;
 	text-align: center;

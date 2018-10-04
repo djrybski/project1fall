@@ -247,7 +247,7 @@ textarea {
   form > label,
 	legend {
   	text-align: center;
-    width: 100%;
+        width: 100%;
   }
 }
 
@@ -256,7 +256,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-image: url("../media/123.jpg");
-  background-repeat: no-repeat;
+        background-repeat: no-repeat;
 	background-size: cover;
 	height: 1080px;	
 }
@@ -269,6 +269,7 @@ body {
 	opacity: 0.9;
 	box-sizing: border-box;
 	border: 1px solid #00CED1;
+	padding-top: 100px;
 }
  .avatar{
 	 width: 100px;

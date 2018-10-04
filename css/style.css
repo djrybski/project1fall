@@ -267,14 +267,14 @@ body {
 	background: #303030;
 	color: #fff;
 	opacity: 0.9;
-	top: -20%;
+	padding-top: 10px;
 	left: 50%;
-  position: relative;
+  	position: relative;
 	transform: translate(-50%,-50%);
 	box-sizing: border-box;
 	padding: 30px 30px;
 	border: 1px solid #00CED1;
-	margin-top: 20px;
+	margin-top: 0px;
 }
  .avatar{
 	 width: 100px;

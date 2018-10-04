@@ -267,7 +267,7 @@ body {
 	background: #303030;
 	color: #fff;
 	opacity: 0.9;
-	top: 50%;
+	top: 10%;
 	left: 50%;
   position: relative;
 	transform: translate(-50%,-50%);

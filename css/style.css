@@ -254,11 +254,13 @@ textarea {
   	text-align: center;
     width: 100%;
   }
-	
 body {
 	margin: 0;
 	padding: 0;
-	background: white;
+	background: url("../media/123.jpg");
+   	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-sefif;
    
   }
 }

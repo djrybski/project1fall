@@ -1,3 +1,24 @@
+
+Conversation opened. 1 unread message.
+
+Skip to content
+Using Gmail with screen readers
+Enable desktop notifications for Gmail.
+   OK  No thanks
+
+1 of 474
+CSS Copy and Paste this.
+Inbox
+x
+
+Andy Kukuc <jeep98.ak@gmail.com>
+Attachments
+6:34 PM (0 minutes ago)
+to me
+
+
+Attachments area
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -217,28 +238,26 @@ textarea {
 }
 /* Mobile first css */
 @media screen and (max-width: 480px) {
-  background {
-   color: white;
-  }
-}
   form {
     margin: 0 0 5px 0;
     width: 100%;
   }
-  
   form > label,
   legend {
-   width: 100%;
-   float: none;
+	  width: 100%;
+    float: none;
   }
+  
   label {
     width: 100%;
     text-align: center;
   }
+ 
   form > fieldset {
     width: 80%;
     float: none;
   }
+  
   input[type=email],
   input[type=text],
   input[type=date] {
@@ -251,16 +270,16 @@ textarea {
   	text-align: center;
     width: 100%;
   }
-body {
-	margin: 0;
-	padding: 0;
-	background: url("../media/123.jpg");
-   	background-repeat: no-repeat;
-	background-size: cover;
-	font-family: "Sans-serif",Arial,Times New Roman;
-	height: 1080px;		
 }
-
+body, html {
+  margin: 0;
+  padding: 0;
+  background-image: url("../media/123.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Sans-serif",Arial,Times New Roman;
+  height: 1080px;
+}
 .loginbox {
 	width: 320px;
 	height: 420px;
@@ -269,11 +288,13 @@ body {
 	opacity: 0.9;
 	top: 50%;
 	left: 50%;
-    	position: absolute;
+  position: absolute;
 	transform: translate(-50%,-50%);
 	box-sizing: border-box;
 	padding: 30px 30px;
-	 border: 1px solid #00CED1;
+	border: 1px solid #00CED1;
+  margin-right: auto;
+  margin-left: auto;
 }
  .avatar{
 	 width: 100px;
@@ -294,13 +315,17 @@ h1{
 .loginbox p{
 	margin-right: auto;
 	margin-left: auto;
-	padding: 0;
 	font-weight: bold;
 }
 .loginbox input{
 	width: 100%;
 	padding: 5px 5px;
 	margin-bottom: 20px;
-	margin-right: auto;
-	margin-left: auto;
+  text-align: center;
+}
+input[type=submit] {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 17em;
 }

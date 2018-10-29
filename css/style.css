@@ -220,8 +220,7 @@ textarea {
   background {
    color: white;
   }
-  
-    form {
+  form {
     margin: 0 0 5px 0;
     width: 100%;
   }
@@ -231,17 +230,14 @@ textarea {
    width: 100%;
    float: none;
   }
-  
   label {
     width: 100%;
     text-align: center;
   }
- 
   form > fieldset {
     width: 80%;
     float: none;
   }
-  
   input[type=email],
   input[type=text],
   input[type=date] {
@@ -261,8 +257,7 @@ body {
    	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: sans-sefif;
-	height: 1080px;	
-   
+	height: 1080px;	   
   }
 }
 
@@ -273,8 +268,7 @@ body {
    	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: sans-sefif;
-	height: 1080px;	
-	
+	height: 1080px;		
 }
 
 .loginbox {
@@ -305,8 +299,7 @@ h1{
 	margin: 0;
 	padding: 20px 10px;
 	text-align: center;
-	font-size: 30px;
-	
+	font-size: 30px;	
 }
 .loginbox p{
 	margin: 0;
